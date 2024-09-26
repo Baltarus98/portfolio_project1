@@ -1,0 +1,49 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: rgb(82, 86, 89);
+}
+
+.container {
+    width: 770px;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+h1  {
+    font-size: 32px;
+}
+
+h2  {
+    font-size: 24px;
+}
+
+h3  {
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.table2{
+    width: 680px;
+}
+
+.table3{
+    width: 380px;
+}
+
+.table2 th, .table2 td, .table3 th, .table3 td {
+    text-align: left;
+    
+}
+
