@@ -1,20 +1,28 @@
 
+* {
+    margin: 0;
+}
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
+    width: 70%;
+    margin: 0 auto;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background: rgb(82, 86, 89);
 }
 
 .container {
-    width: 770px;
     background: #ffffff;
-    margin: 0 auto;
-    padding: 40px 60px;
+    padding: 10px 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em; 
+    margin-bottom: 0.5em; 
 }
 
 h1  {
@@ -34,16 +42,39 @@ p {
     text-align: justify;
 }
 
+table {
+    width: 100%; 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    text-align: left; 
+}
+th, td {
+    border: 1px solid black; 
+    padding: 4px; 
+}
+
+.table1{
+    width: 700px;
+}
+
 .table2{
-    width: 680px;
+    width: 700px;
 }
 
 .table3{
-    width: 380px;
+    width: 500px;
 }
 
-.table2 th, .table2 td, .table3 th, .table3 td {
-    text-align: left;
-    
+figure {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
+img {   
+    width: 300px;
+    height: 300px;}
+
+figcaption{
+    width: 300px;
+}
